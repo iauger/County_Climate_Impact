@@ -1,0 +1,33 @@
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# Jupyter Notebook metadata
+.ipynb_checkpoints/
+
+# Environment files
+.env
+*.env
+.venv/
+venv/
+ENV/
+
+# Data and outputs
+Data/*
+
+# 2 Data Folder Exceptions
+!Data/county_weather_acs_complete.csv
+!Data/county_weather_acs_training.csv
+
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode or IDE folders
+.vscode/
+.idea/
+
+# Large notebooks (optional)
+*.ipynb

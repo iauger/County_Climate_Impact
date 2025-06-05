@@ -19,6 +19,8 @@ Data/*
 # 2 Data Folder Exceptions
 !Data/county_weather_acs_complete.csv
 !Data/county_weather_acs_training.csv
+!Data/weather_clusters.csv
+!Data/socioeconomic_clusters.csv
 
 
 # OS-specific files

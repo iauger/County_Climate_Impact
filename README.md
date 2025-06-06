@@ -38,6 +38,7 @@ This project investigates how weather extremes and socioeconomic inequality inte
 ## Final Report and Visualizations
 
 ### Looker Studio Dashboard
+- Report can be found [here](https://lookerstudio.google.com/reporting/8a06544f-2586-4629-ba85-fbee0b7ef7d9/)
 - Interactive geographic tool to explore county-level macro clusters
 - Designed to support single-variable tooltips and clean regional navigation
 - Built for exploratory analysis of U.S. counties by risk tier, allowing stakeholders to identify high-vulnerability regions as well as the latent factors driving the classifications.
@@ -58,6 +59,7 @@ This project investigates how weather extremes and socioeconomic inequality inte
 ### How to Run
 1. Set up your virtual environment and install dependencies
 2. **Optional:** authenticate with Google Cloud and set `project_id` and `dataset_id` in notebooks
+    - If you choose to skip this step then you can skip `Data_Acquisition` and `Data_Preparation`, instead start with `Data_Clustering` by loading the pre-cleaned acs training data
 3. Run notebooks in the following order:  
    `Data_Acquisition` → `Data_Preparation` → `Data_Clustering` → `Weather_Data_Clustering` → `Data_Presentation`
 

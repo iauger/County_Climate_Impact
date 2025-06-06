@@ -45,7 +45,7 @@ This project investigates how weather extremes and socioeconomic inequality inte
 
 ---
 
-## ⚙️ Reproducibility
+## Reproducibility
 
 ### Requirements
 - Python 3.12+
